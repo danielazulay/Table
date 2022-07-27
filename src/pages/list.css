@@ -1,0 +1,31 @@
+
+#box{
+  position: absolute;
+  left: 250px;
+  top: 15px;
+  border: 5px solid brown;
+  width: 350px;
+  height: 300px;
+
+  overflow:scroll;
+}
+#id{
+  width:90%;
+}
+table{
+
+}
+  tr{
+    border: 1px solid #ddd;
+    display: flex;
+    height: 40px;
+    width: 330px;
+   align-items: center;
+  }
+  td{
+    border: 1px solid #ddd;
+    width: 31%;
+    height:75%;
+    margin: 1px;
+    text-align: center;
+  }
