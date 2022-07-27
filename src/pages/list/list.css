@@ -1,13 +1,13 @@
 
 #box{
   position: absolute;
-  left: 250px;
+  left: 280px;
   top: 15px;
   border: 5px solid brown;
   width: 350px;
   height: 300px;
-
   overflow:scroll;
+  overflow-x:hidden;
 }
 #id{
   width:90%;

@@ -1,0 +1,27 @@
+#main{
+    margin-left: 50px;
+   width: 150px;
+}
+label{
+    margin-bottom: 2px;
+}
+input{
+    width:120px;
+}
+ul,li{
+    list-style: none;
+}
+
+input{
+    margin-bottom: 2px;
+    border-radius: 3px;
+}
+
+
+li{
+    margin: 1px;
+}
+
+#search{
+    margin-top: 20px;
+}

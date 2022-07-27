@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import List from './List'
-import '../home.css'
+import List from '../list/List'
+import './home.css'
 
 function Home() {
 
@@ -69,19 +69,19 @@ function Home() {
                 <button type='submit'>salvar</button>
             </form>
 
-            <form>
-                <lable>Search :</lable><br />
+            <form id='search'>
+                <lable className="label">Search :</lable><br />
                 <input type='string' name='search' value={search.search} onChange={handleSearch} /><br />
             </form>
             <>
                 {search.search !== '' ? <ul>{state.filter(a => a.name.includes(search.search)).map(b => (
 
                     <li>
-                        {b.name}
+                        {b.name} : {b.price}
                     </li>
 
 
-                ))}</ul> : <p>as</p>}
+                ))}</ul> : <p></p>}
             </>
             <List state={state} handleEdit={handleEdit} />
         </div>
